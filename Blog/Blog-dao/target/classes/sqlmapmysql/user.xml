@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+        "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="User">
+    <typeAlias alias="User" type="com.jcx.blog.domain.po.User"/>
+    <resultMap class="User" id="UserResult">
+        <result property="id" column="id"/>
+        <result property="nickname" column="nickname"/>
+        <result property="password" column="password"/>
+        <result property="first_name" column="first_name"/>
+        <result property="last_name" column="last_name"/>
+    </resultMap>
+    <select id="selectAllUser" resultMap="UserResult">
+        select * from user
+    </select>
+
+    <insert id="addUser" parameterClass="User">
+        INSERT user (nickname,password,first_name,last_name) VALUES (#nickname#,#password#,#first_name#,#last_name#)
+    </insert>
+    <select id="selectUserByNickname" resultMap="UserResult">
+        SELECT * FROM user WHERE nickname=#nickname#
+    </select>
+
+</sqlMap>

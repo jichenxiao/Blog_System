@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Blog-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Blog-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Blog-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Blog-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Blog-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Blog-web/src/main/webapp/WEB-INF/pages/error.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Blog-web/src/main/webapp/WEB-INF/pages/index.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Blog-web/src/main/webapp/WEB-INF/pages/login.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Blog-web/src/main/webapp/WEB-INF/pages/userList.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Blog-web/src/main/webapp/WEB-INF/pages/userList.jsp" charset="GBK" />
+  </component>
+</project>
